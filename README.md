@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Faucet Project 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Project is an mini Application that is related to WEB3.0 
 
-## Available Scripts
+There will be one Contract (Faucet) where you can add Funds (Ether's) to that Contract(Faucet) or withdraw to your Account( In Meta Mask )
 
-In the project directory, you can run:
+For the creation of contract , Solidity language is used and for deploying Ganach network is used . For UI Reactjs is used and for connecting contract and MetaMask wallet web3.js is used.....
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Requirments
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ganach    -> For deploying ( Network )
 
-### `npm test`
+Truffle   -> For Compile solidity contracts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Metamask  -> For Transaction's ( Account's Wallet )
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Process :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Migrate contracts ( truffle migrate --reset )
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Open Ganach 
 
-### `npm run eject`
+![2022-08-15 (8)](https://user-images.githubusercontent.com/88612726/184674937-6a20a5fa-5123-449c-a0a4-2590f5d2266f.png)
+![2022-08-15 (9)](https://user-images.githubusercontent.com/88612726/184674970-eac98dc7-dcb6-4a36-9ffa-b10b8e8c1400.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+3. Strat the React Server ( npm start )
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Click Connect to connect To Meta Mask wallet ( to your Account)
 
-### Code Splitting
+![2022-08-15](https://user-images.githubusercontent.com/88612726/184675153-62afcb33-431a-413a-8abe-2dcc1ffcd43b.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Enter Your Wallet Password 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![2022-08-15 (1)](https://user-images.githubusercontent.com/88612726/184675235-942f8fe1-1240-4206-9731-f1653a2ef3e1.png)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Now Your Account is connected to Contract 
 
-### Advanced Configuration
+![2022-08-15 (2)](https://user-images.githubusercontent.com/88612726/184675377-5d84cad9-b797-4401-83e6-f5b1eb508dce.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+You will be able to see the Current Balance of Contract and Your Account Address
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![2022-08-15 (3)](https://user-images.githubusercontent.com/88612726/184675528-e2951b32-4f32-46c6-a247-a577ae5874f3.png)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can add Funds to contract from your Account by clicking " Donate 2 Eth"
+
+![2022-08-15 (4)](https://user-images.githubusercontent.com/88612726/184675788-516f8ee0-c89e-4b9b-a45c-a3dcdfbccaf7.png)
+
+
+You can Withdraw from contract to your Account by clicking " Withdraw "
+
+![2022-08-15 (6)](https://user-images.githubusercontent.com/88612726/184675986-d0487056-8ec1-4828-a94d-ee842d37e352.png)
+
+
+You will be able to see the Current Contract Balance :
+
+![2022-08-15 (7)](https://user-images.githubusercontent.com/88612726/184676179-ef19c359-a489-49b3-9293-41d37c341753.png)
+
+
+
+
